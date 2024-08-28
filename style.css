@@ -1,0 +1,115 @@
+/**
+ * Theme Name:        Gaard Tema
+ * Theme URI:         https://#
+ * Description:       Custom theme description...
+ * Version:           1.0.0
+ * Author:            Silje Paldrup
+ * Author URI:        https://example.com
+ * Tags:              nice, responsive
+ * Text Domain:       gaard
+ * Tested up to:      6.6.1
+ * Requires at least: 6.6.1
+ * Requires PHP:      7.4
+ * License:           GNU General Public License v2.0 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+/* farver 
+dyb blå 6699CC 
+creme FFFDD0
+sage green 9CAF88
+brun 3D2B1F
+*/
+
+
+* {
+   font-family: Georgia, serif;
+
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+
+body {
+   background-color: #FFFFF0;
+}
+
+/* .gaard-main-menu {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    z-index: 170;
+    margin: 0 auto;
+    border-bottom: 1px solid #dadada;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+} */
+
+/* ###### HEADER UNDER HERE ######*/
+
+.gaard-header-menu {
+   display: flex;
+   margin-top: 2em;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+/* .gaard-main-menu {
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+
+} */
+
+#menu-main-menu {
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+
+}
+
+.menu-item {
+   padding: 2em;
+   font-size: large;
+}
+
+.site-title {
+   font-size: x-large;
+   text-decoration: none;
+   color: black;
+
+}
+
+.menu-item a:hover {
+   text-decoration: underline;
+   color: #6699CC;
+}
+
+.header-image img {
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+}
+
+#searchsubmit {
+   background-color: #6699CC;
+   border-radius: 10px;
+   border-width: 0;
+   padding: .5em;
+
+}
+
+@media (max-width: 768px) {
+   .header-image img {
+      height: 250px;
+      /* Reduce the height for mobile devices */
+   }
+}
